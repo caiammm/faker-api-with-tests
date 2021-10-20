@@ -5,6 +5,9 @@ RSpec.describe CarsController do
     context 'when a car can be built' do
       it 'returns an appropriate json response with status 200' do
 
+        # mock the random part
+        allow_any_instance_of(CarsController).to receive(:can_be_built?).with(model_number: "ELL-TORO").and_return(true)
+
         get url_helpers.car_can_be_built_path(model_number: "ELL-TORO")
 
         expected_json = {
