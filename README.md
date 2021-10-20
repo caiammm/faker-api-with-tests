@@ -25,4 +25,4 @@ Things you may want to cover:
 
 
 # TODO LIST:
-- create the first route and fake response, with the test
+- put some good information in this readme file
