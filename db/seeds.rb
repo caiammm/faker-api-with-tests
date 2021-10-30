@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+PlantingCultureInformation.create({
+  name: "Batata",
+  days_to_senescence: 10,
+  days_to_full_vegetation: 20,
+  days_to_harvest_possibility: 30,
+})
