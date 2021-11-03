@@ -26,3 +26,7 @@ Things you may want to cover:
 
 # TODO LIST:
 - put some good information in this readme file
+- possible_state_dates: hit the DB and return the information
+    - factori!
+    - use the DB to query
+    - return and test it
